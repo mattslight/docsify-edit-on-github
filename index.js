@@ -26,7 +26,7 @@
 
     function generateHeader(title) {
       return header = [
-        '<div style="overflow: auto">',
+        '<div style="overflow: auto" id="edit-on-github">',
         '<p style="float: right"><a style="text-decoration: underline; cursor: pointer"',
         'onclick="EditOnGithubPlugin.onClick(event)">',
         title,
